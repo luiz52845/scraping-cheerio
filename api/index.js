@@ -40,6 +40,4 @@ app.use((req, res, next) => {
     next();
 });
 
-app.listen(port, () => {
-    console.log(`Servidor rodando na http://localhost:${port}`);
-});
+module.exports = app;
